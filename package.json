@@ -1,0 +1,33 @@
+{
+  "name": "selenium-bot-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximeallanic/selenium-bot-nodejs.git"
+  },
+  "author": "Maxime Allanic <maxime@allanic.me> (https://allanic.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximeallanic/selenium-bot-nodejs/issues"
+  },
+  "homepage": "https://github.com/maximeallanic/selenium-bot-nodejs#readme",
+  "dependencies": {
+    "@google-cloud/compute": "^1.1.5",
+    "aws-sdk": "^2.549.0",
+    "cluster": "^0.7.7",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-docker-api": "^1.1.22",
+    "request-promise": "^4.2.4",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "wait-port": "^0.2.6"
+  }
+}
